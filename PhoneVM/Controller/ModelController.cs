@@ -15,7 +15,7 @@ namespace PhoneVM.Controller
         private Todo todo;
         private int count_todo = 0;
         public ModelController() {
-            Console.WriteLine("Damn");
+            
         }
 
         public List<Todo> ArrayTodo()
@@ -123,6 +123,7 @@ namespace PhoneVM.Controller
                     string line;
                     while ((line = reader.ReadLine()) != null)
                     {
+                        Console.WriteLine(line);
                         var data = line.Split(';');
                         array.Add(new Message(searchMember(int.Parse(data[0])), data[1], DateTime.Parse(data[2])));
                     }
@@ -145,6 +146,35 @@ namespace PhoneVM.Controller
                 }
             }
             return value;
+        }
+
+        public void add_message(Message message)
+        {
+            List<Message> array = messages();
+            array.Add(message);
+
+            update_message(array);
+        }
+
+        public void remove_message(Message message)
+        {
+            List<Message> array = messages();
+            array.Remove(message);
+
+            update_message(array);
+        }
+
+        private void update_message(List<Message> array)
+        {
+            string content = "";
+            foreach (Message i in array)
+            {
+                content += i.ToString() + "\n";
+            }
+
+            string filePath = @"C:\Users\basso\source\repos\PhoneVM\PhoneVM\Database\Test.txt";
+            File.WriteAllText(filePath, content);
+            Console.WriteLine(content);
         }
     }
 }

@@ -33,3 +33,38 @@ C:\Users\basso\source\repos\PhoneVM\PhoneVM\obj\Debug\MessengerWindow.g.cs
 C:\Users\basso\source\repos\PhoneVM\PhoneVM\obj\Debug\MessengerWindow.baml
 C:\Users\basso\source\repos\PhoneVM\PhoneVM\obj\Debug\View\MainWindow\messenger_container.g.cs
 C:\Users\basso\source\repos\PhoneVM\PhoneVM\obj\Debug\View\MainWindow\messenger_container.baml
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\bin\Debug\PhoneVM.exe.config
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\bin\Debug\PhoneVM.exe
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\bin\Debug\PhoneVM.pdb
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\PhoneVM.csproj.AssemblyReference.cache
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\Theme\AppStyle.baml
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\Theme\calculator_button.baml
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\Theme\RadioButtonStyle.baml
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\Theme\WindowControlButton.baml
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\CalculatorWindow.g.cs
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\MainWindow.g.cs
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\MessengerWindow.g.cs
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\TodoWindow.g.cs
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\View\MainWindow\calculator_container.g.cs
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\View\MainWindow\discord_container.g.cs
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\View\MainWindow\messenger_container.g.cs
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\View\MainWindow\todo_container.g.cs
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\App.g.cs
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\PhoneVM_MarkupCompile.cache
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\PhoneVM_MarkupCompile.lref
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\App.baml
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\CalculatorWindow.baml
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\MainWindow.baml
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\MessengerWindow.baml
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\TodoWindow.baml
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\View\MainWindow\calculator_container.baml
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\View\MainWindow\discord_container.baml
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\View\MainWindow\messenger_container.baml
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\View\MainWindow\todo_container.baml
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\PhoneVM.g.resources
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\PhoneVM.Properties.Resources.resources
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\PhoneVM.csproj.GenerateResource.cache
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\PhoneVM.csproj.CoreCompileInputs.cache
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\PhoneVM.exe
+C:\Users\basso\OneDrive\Desktop\Programming\software development\EvolveVirtualPhone\EvolveVirtualPhone\PhoneVM\obj\Debug\PhoneVM.pdb

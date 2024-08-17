@@ -201,5 +201,8 @@
   <ItemGroup>
     <Resource Include="Database\Message.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Database\Test.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

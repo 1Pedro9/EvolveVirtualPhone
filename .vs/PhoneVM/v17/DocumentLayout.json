@@ -1,0 +1,107 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\basso\\OneDrive\\Desktop\\Programming\\software development\\EvolveVirtualPhone\\EvolveVirtualPhone\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56F4EC2A-56B0-4D6E-882C-562542CB319F}|PhoneVM\\PhoneVM.csproj|c:\\users\\basso\\onedrive\\desktop\\programming\\software development\\evolvevirtualphone\\evolvevirtualphone\\phonevm\\database\\test.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{56F4EC2A-56B0-4D6E-882C-562542CB319F}|PhoneVM\\PhoneVM.csproj|solutionrelative:phonevm\\database\\test.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56F4EC2A-56B0-4D6E-882C-562542CB319F}|PhoneVM\\PhoneVM.csproj|c:\\users\\basso\\onedrive\\desktop\\programming\\software development\\evolvevirtualphone\\evolvevirtualphone\\phonevm\\controller\\modelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56F4EC2A-56B0-4D6E-882C-562542CB319F}|PhoneVM\\PhoneVM.csproj|solutionrelative:phonevm\\controller\\modelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56F4EC2A-56B0-4D6E-882C-562542CB319F}|PhoneVM\\PhoneVM.csproj|c:\\users\\basso\\onedrive\\desktop\\programming\\software development\\evolvevirtualphone\\evolvevirtualphone\\phonevm\\messengerwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{56F4EC2A-56B0-4D6E-882C-562542CB319F}|PhoneVM\\PhoneVM.csproj|solutionrelative:phonevm\\messengerwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56F4EC2A-56B0-4D6E-882C-562542CB319F}|PhoneVM\\PhoneVM.csproj|c:\\users\\basso\\onedrive\\desktop\\programming\\software development\\evolvevirtualphone\\evolvevirtualphone\\phonevm\\messengerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{56F4EC2A-56B0-4D6E-882C-562542CB319F}|PhoneVM\\PhoneVM.csproj|solutionrelative:phonevm\\messengerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56F4EC2A-56B0-4D6E-882C-562542CB319F}|PhoneVM\\PhoneVM.csproj|c:\\users\\basso\\onedrive\\desktop\\programming\\software development\\evolvevirtualphone\\evolvevirtualphone\\phonevm\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{56F4EC2A-56B0-4D6E-882C-562542CB319F}|PhoneVM\\PhoneVM.csproj|solutionrelative:phonevm\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test.txt",
+              "DocumentMoniker": "C:\\Users\\basso\\OneDrive\\Desktop\\Programming\\software development\\EvolveVirtualPhone\\EvolveVirtualPhone\\PhoneVM\\Database\\Test.txt",
+              "RelativeDocumentMoniker": "PhoneVM\\Database\\Test.txt",
+              "ToolTip": "C:\\Users\\basso\\OneDrive\\Desktop\\Programming\\software development\\EvolveVirtualPhone\\EvolveVirtualPhone\\PhoneVM\\Database\\Test.txt",
+              "RelativeToolTip": "PhoneVM\\Database\\Test.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-08-17T07:02:18.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ModelController.cs",
+              "DocumentMoniker": "C:\\Users\\basso\\OneDrive\\Desktop\\Programming\\software development\\EvolveVirtualPhone\\EvolveVirtualPhone\\PhoneVM\\Controller\\ModelController.cs",
+              "RelativeDocumentMoniker": "PhoneVM\\Controller\\ModelController.cs",
+              "ToolTip": "C:\\Users\\basso\\OneDrive\\Desktop\\Programming\\software development\\EvolveVirtualPhone\\EvolveVirtualPhone\\PhoneVM\\Controller\\ModelController.cs",
+              "RelativeToolTip": "PhoneVM\\Controller\\ModelController.cs",
+              "ViewState": "AQIAAKYAAAAAAAAAAAAAALAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T06:41:52.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MessengerWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\basso\\OneDrive\\Desktop\\Programming\\software development\\EvolveVirtualPhone\\EvolveVirtualPhone\\PhoneVM\\MessengerWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PhoneVM\\MessengerWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\basso\\OneDrive\\Desktop\\Programming\\software development\\EvolveVirtualPhone\\EvolveVirtualPhone\\PhoneVM\\MessengerWindow.xaml.cs",
+              "RelativeToolTip": "PhoneVM\\MessengerWindow.xaml.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAA5wDgAAABvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T06:11:28.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MessengerWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\basso\\OneDrive\\Desktop\\Programming\\software development\\EvolveVirtualPhone\\EvolveVirtualPhone\\PhoneVM\\MessengerWindow.xaml",
+              "RelativeDocumentMoniker": "PhoneVM\\MessengerWindow.xaml",
+              "ToolTip": "C:\\Users\\basso\\OneDrive\\Desktop\\Programming\\software development\\EvolveVirtualPhone\\EvolveVirtualPhone\\PhoneVM\\MessengerWindow.xaml",
+              "RelativeToolTip": "PhoneVM\\MessengerWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-17T06:11:22.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\basso\\OneDrive\\Desktop\\Programming\\software development\\EvolveVirtualPhone\\EvolveVirtualPhone\\PhoneVM\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "PhoneVM\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\basso\\OneDrive\\Desktop\\Programming\\software development\\EvolveVirtualPhone\\EvolveVirtualPhone\\PhoneVM\\MainWindow.xaml",
+              "RelativeToolTip": "PhoneVM\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-17T06:08:30.474Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

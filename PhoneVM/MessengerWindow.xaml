@@ -26,16 +26,11 @@
             </LinearGradientBrush>
         </Border.Background>
 
-        <!-- Use Grid for flexible layout -->
         <Grid>
-            <!-- Define the rows -->
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
-                <!-- Header area -->
                 <RowDefinition Height="*" />
-                <!-- Messages area (fills remaining space) -->
                 <RowDefinition Height="Auto" />
-                <!-- Bottom TextBox area -->
             </Grid.RowDefinitions>
 
             <StackPanel Grid.Row="0">
@@ -81,43 +76,10 @@
                         />
                 </Border>
             </StackPanel>
-            <!-- Messages area -->
-            <StackPanel Grid.Row="1" Margin="10">
-                <!-- Example messages -->
-                <Border
-                    Background="#a0ccff"
-                    MaxWidth="200"
-                    HorizontalAlignment="Left"
-                    Margin="20 10 0 0"
-                    CornerRadius="10"
-                    Padding="10 0"
-                    BorderBrush="Black"
-                    BorderThickness="1">
-                    <TextBlock
-                        Text="What are you on about. This is so cool"
-                        FontSize="12"
-                        FontWeight="DemiBold"
-                        TextWrapping="WrapWithOverflow" />
-                </Border>
-
-                <Border
-                    Background="#ffd700"
-                    MaxWidth="200"
-                    HorizontalAlignment="Right"
-                    Margin="0 10 20 0"
-                    CornerRadius="10"
-                    Padding="10 0"
-                    BorderBrush="Black"
-                    BorderThickness="1">
-                    <TextBlock
-                        Text="I agree! Let's continue our discussion."
-                        FontSize="12"
-                        FontWeight="DemiBold"
-                        TextWrapping="WrapWithOverflow" />
-                </Border>
+            <StackPanel Grid.Row="1" Margin="10" x:Name="MessageContainer">
+                
             </StackPanel>
 
-            <!-- Bottom TextBox section -->
             <Border
                 Grid.Row="2"
                 Background="#eee"

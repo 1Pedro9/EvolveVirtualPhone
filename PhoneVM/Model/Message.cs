@@ -24,6 +24,16 @@ namespace PhoneVM.Model
         {
             return this.member;
         }
+
+        public string getMessage()
+        {
+            return this.message;
+        }
+
+        public DateTime getDateOfMessage()
+        {
+            return this.date_of_message;
+        }
         public string ToString()
         {
             return this.member.getMemberID().ToString() + ";" + this.message.ToString() + ";" + date_of_message.ToString();
