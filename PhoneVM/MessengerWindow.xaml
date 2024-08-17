@@ -69,16 +69,18 @@
                     Margin="0 0 0 20"
                     >
                     <Label
-                        Content="You are talking to Pedro"
+                        Content="You are talking to everyone"
                         FontSize="20"
                         Padding="10 0"
                         FontWeight="Light"
                         />
                 </Border>
             </StackPanel>
-            <StackPanel Grid.Row="1" Margin="10" x:Name="MessageContainer">
-                
-            </StackPanel>
+            <ScrollViewer Grid.Row="1" Margin="10" VerticalScrollBarVisibility="Hidden">
+                <StackPanel x:Name="MessageContainer">
+                    <!-- Your content here -->
+                </StackPanel>
+            </ScrollViewer>
 
             <Border
                 Grid.Row="2"

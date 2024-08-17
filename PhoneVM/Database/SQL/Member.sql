@@ -1,0 +1,10 @@
+CREATE TABLE members(
+ 	member_id INT NOT NULL AUTO_INCREMENT,
+    firstname VARCHAR(100) NOT NULL DEFAULT "",
+    lastname VARCHAR(100) NOT NULL DEFAULT "",
+    email VARCHAR(100) NOT NULL,
+    password VARCHAR(30) NOT NULL,
+    date_joined DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    is_admin INT NOT NULL DEFAULT 0,
+    PRIMARY KEY(member_id)
+)

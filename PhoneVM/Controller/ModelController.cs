@@ -5,18 +5,14 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MySql.Data.MySqlClient;
+using PhoneVM.Database;
 using PhoneVM.Model;
 
 namespace PhoneVM.Controller
 {
     internal class ModelController
     {
-
-        private Todo todo;
-        private int count_todo = 0;
-        public ModelController() {
-            
-        }
 
         public List<Todo> ArrayTodo()
         {
@@ -71,6 +67,8 @@ namespace PhoneVM.Controller
         /**
          * This is the part for the Members controller
          */
+
+        
         public List<Member> members()
         {
             List<Member> array = new List<Member>();

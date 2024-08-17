@@ -23,7 +23,7 @@ namespace PhoneVM
     {
 
         private WindowProperties windowProperties;
-        // private ModelController modelController;
+        private Member member;
         public TodoWindow()
         {
             InitializeComponent();
@@ -33,13 +33,16 @@ namespace PhoneVM
              * Make that if you click on the stackpanel that the input (Textbox) goes into focus
              *
             */
-            // modelController = new ModelController();
             
+        }
+        public void setMember(Member member)
+        {
+            this.member = member;
         }
 
         private void close(object sender, RoutedEventArgs e)
         {
-            windowProperties.close_window();
+            windowProperties.close_window(this.member);
         }
         private void minimise(object sender, RoutedEventArgs e)
         {

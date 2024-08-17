@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using PhoneVM.Model;
 
 namespace PhoneVM.Controller
 {
@@ -21,9 +22,10 @@ namespace PhoneVM.Controller
             Environment.Exit(0);
         }
 
-        public void close_window()
+        public void close_window(Member member)
         {
             MainWindow main = new MainWindow();
+            main.setMember(member);
             main.Show();
 
             _window.Close();

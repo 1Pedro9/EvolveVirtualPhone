@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PhoneVM.Model
 {
-    internal class Member
+    public class Member
     {
 
         private int member_id;
@@ -58,7 +58,7 @@ namespace PhoneVM.Model
             return this.is_member;
         }
 
-        public string ToString()
+        public override string ToString()
         {
             return this.member_id.ToString() + ";" + this.firstname.ToString() + ";" + this.lastname.ToString() + ";" + this.email.ToString() + ";" + this.password.ToString() + ";" + this.date.ToString() + ";" + this.is_member.ToString();
         }

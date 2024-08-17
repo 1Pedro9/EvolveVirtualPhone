@@ -34,7 +34,7 @@ namespace PhoneVM.Model
         {
             return this.date_of_message;
         }
-        public string ToString()
+        public override string ToString()
         {
             return this.member.getMemberID().ToString() + ";" + this.message.ToString() + ";" + date_of_message.ToString();
         }

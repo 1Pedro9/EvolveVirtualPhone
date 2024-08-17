@@ -1,4 +1,5 @@
 ﻿using PhoneVM.Controller;
+using PhoneVM.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,6 +26,8 @@ namespace PhoneVM
         private string execute = "";
         private string next_val = "";
 
+        private Member member;
+
         private WindowProperties windowProperties;
         public CalculatorWindow()
         {
@@ -32,9 +35,14 @@ namespace PhoneVM
             windowProperties = new WindowProperties(this);
         }
 
+        public void setMember(Member member)
+        {
+            this.member = member;
+        }
+
         private void close(object sender, RoutedEventArgs e)
         {
-            windowProperties.close_window();
+            windowProperties.close_window(this.member);
         }
         private void minimise(object sender, RoutedEventArgs e)
         {

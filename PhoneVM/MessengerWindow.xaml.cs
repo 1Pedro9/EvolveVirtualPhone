@@ -22,25 +22,25 @@ namespace PhoneVM
     public partial class MessengerWindow : Window
     {
         private WindowProperties windowProperties;
-        private ModelController modelController;
+        private DatabaseController databaseController;
         private Member member;
-        private Message message;
         public MessengerWindow()
         {
             InitializeComponent();
             windowProperties = new WindowProperties(this);
-            modelController = new ModelController();
 
-            List<Member> members = modelController.members();
+            databaseController = new DatabaseController();
+        }
 
-            this.member = modelController.searchMember(1);
-
+        public void setMember(Member member)
+        {
+            this.member = member;
             show_messsages();
         }
 
         private void close(object sender, RoutedEventArgs e)
         {
-            windowProperties.close_window();
+            windowProperties.close_window(this.member);
         }
         private void minimise(object sender, RoutedEventArgs e)
         {
@@ -54,13 +54,16 @@ namespace PhoneVM
 
         private void SendMessage(object sender, RoutedEventArgs e)
         {
-            modelController.add_message(new Message(this.member, message_input.Text.ToString(), DateTime.Now));
+            MessageContainer.Children.Add(message_container(new Message(this.member, message_input.Text, DateTime.Now)));
+            Member temp = new Member(2, "Admin", "Admin", "admin@pedrobasson.com", "Admin01", DateTime.Now, 1);
+            Message temp_m = new Message(temp, "Yes, that works for me", DateTime.Now);
+            MessageContainer.Children.Add(message_container(temp_m));
         }
 
         private void show_messsages()
         {
             // MessageContainer
-            List<Message> messages = modelController.messages();
+            List<Message> messages = databaseController.messages();
             foreach (Message message in messages)
             {
                 MessageContainer.Children.Add(message_container(message));
@@ -82,7 +85,7 @@ namespace PhoneVM
                 border.HorizontalAlignment = HorizontalAlignment.Left;
             }
             border.MaxWidth = 200;
-            border.Margin = new Thickness(20, 10, 0, 0);
+            border.Margin = new Thickness(20, 10, 20, 0);
             border.CornerRadius = new CornerRadius(10);
             border.Padding = new Thickness(10, 0, 10, 0);
             border.BorderBrush = new SolidColorBrush((Color)ColorConverter.ConvertFromString("Black"));

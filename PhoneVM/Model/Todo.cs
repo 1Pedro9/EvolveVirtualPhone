@@ -25,7 +25,7 @@ namespace PhoneVM.Model
             this.todo = value;
         }
 
-        public string ToString()
+        public override string ToString()
         {
             return this.todo; 
         }
