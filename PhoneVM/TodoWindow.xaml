@@ -1,0 +1,138 @@
+﻿<Window x:Class="PhoneVM.TodoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PhoneVM"
+        xmlns:viewModel="clr-namespace:PhoneVM.ViewModel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="300"
+        AllowsTransparency="True"
+        WindowStyle="None"
+        Background="Transparent"
+        >
+    <Window.DataContext>
+        <viewModel:HomeViewModel/>
+    </Window.DataContext>
+    
+    <Border
+        CornerRadius="30"
+        Padding="0 10 0 50"
+        VerticalAlignment="Stretch"
+        >
+        <Border.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                <GradientStop Color="#ff54" Offset="0.0"/>
+                <GradientStop Color="#a0ff" Offset="1"/>
+            </LinearGradientBrush>
+        </Border.Background>
+        <StackPanel
+            Width="300"
+            Height="600"
+            >
+            <StackPanel
+                VerticalAlignment="Top"
+                Orientation="Horizontal"
+                HorizontalAlignment="Right"
+                Margin="0 0 10 0"
+                >
+                <Border Style="{StaticResource WindowBorder}" Background="GreenYellow">
+                    <Button Style="{StaticResource WindowButton}" Click="minimise">
+                        <Image Source="Images/remove.png" Style="{StaticResource WindowImage}"/>
+                    </Button>
+                </Border>
+                <Border Style="{StaticResource WindowBorder}" Background="Yellow">
+                    <Button Style="{StaticResource WindowButton}" Click="maximise">
+                        <Image Source="Images/maximise.png" Style="{StaticResource WindowImage}"  Width="12" Height="12"/>
+                    </Button>
+                </Border>
+                <Border Style="{StaticResource WindowBorder}" Background="Red">
+                    <Button Style="{StaticResource WindowButton}" Click="close">
+                        <Image Source="Images/octagon-xmark.png" Style="{StaticResource WindowImage}"/>
+                    </Button>
+                </Border>
+            </StackPanel>
+            <StackPanel
+                Margin="20 0">
+                <Border
+                    BorderBrush="White"
+                    BorderThickness="0 0 0 2"
+                    >
+                    <Label
+                        Content="TODO: "
+                        FontSize="25"
+                        FontWeight="ExtraBold"
+                        Foreground="White"
+                        />
+                </Border>
+
+                <StackPanel x:Name="todo_list">
+
+                    <!-- <Border
+                        BorderBrush="#eee"
+                        BorderThickness="1"
+                        Margin="0 5"
+                        Padding="10 5"
+                        Background="#4CFFFFFF"
+                        x:Name="todo_default"
+                        >
+                        <StackPanel Orientation="Horizontal">
+                        
+                            <RadioButton 
+                                Style="{StaticResource RadioStyle}"
+                                />
+                            <Label
+                                Content="Do Your Homeword!!"
+                                VerticalAlignment="Center"
+                                Foreground="White"
+                                FontWeight="DemiBold"
+                                FontSize="15"
+                                />
+                        </StackPanel>
+                    </Border> -->
+                </StackPanel>
+                <Border
+                        BorderBrush="#eee"
+                        BorderThickness="1"
+                        Margin="0 5"
+                        Padding="10 5"
+                        Background="#4CFFFFFF"
+                        x:Name="todo_default"
+                        >
+                        <StackPanel Orientation="Horizontal">
+
+                            <RadioButton 
+                                VerticalAlignment="Top"
+                                Style="{StaticResource RadioStyle}"
+                                Margin="0 0 5 0" Checked="RemoveTodo"
+                                />
+                            <StackPanel>
+                                <TextBox
+                                    Text=""
+                                    Background="Transparent"
+                                    FontSize="15"
+                                    Foreground="White"
+                                    FontWeight="DemiBold"
+                                    Padding="1 0 0 0"
+                                    BorderThickness="0"
+                                    Focusable="True"
+                                    KeyUp="EnterPressed"
+                                    />
+                                <Label
+                                    Content="Add note"
+                                    VerticalAlignment="Center"
+                                    Foreground="White"
+                                    FontWeight="Light"
+                                    FontSize="12"
+                                    />
+                            </StackPanel>
+                            
+                        </StackPanel>
+                    </Border>
+                
+            </StackPanel>
+        </StackPanel>
+    </Border>
+    
+    
+</Window>

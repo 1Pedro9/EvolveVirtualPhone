@@ -1,0 +1,31 @@
+﻿<Application x:Class="PhoneVM.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:PhoneVM"
+             xmlns:viewModelMain="clr-namespace:PhoneVM.ViewModel.MainWindow"
+             xmlns:viewMain="clr-namespace:PhoneVM.View.MainWindow"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Theme/AppStyle.xaml"/>
+                <ResourceDictionary Source="Theme/RadioButtonStyle.xaml"/>
+                <ResourceDictionary Source="Theme/calculator_button.xaml"/>
+                <ResourceDictionary Source="Theme/WindowControlButton.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <DataTemplate DataType="{x:Type viewModelMain:DiscordVM}">
+                <viewMain:discord_container/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModelMain:CalculatorVM}">
+                <viewMain:calculator_container/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModelMain:TodoVM}">
+                <viewMain:todo_container/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModelMain:MessengerViewModel}">
+                <viewMain:messenger_container/>
+            </DataTemplate>
+        </ResourceDictionary>
+        
+    </Application.Resources>
+</Application>

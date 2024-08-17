@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneVM", "PhoneVM\PhoneVM.csproj", "{56F4EC2A-56B0-4D6E-882C-562542CB319F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56F4EC2A-56B0-4D6E-882C-562542CB319F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F4EC2A-56B0-4D6E-882C-562542CB319F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F4EC2A-56B0-4D6E-882C-562542CB319F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F4EC2A-56B0-4D6E-882C-562542CB319F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F392290F-F276-4D86-92AA-86A46F6B76B1}
+	EndGlobalSection
+EndGlobal
