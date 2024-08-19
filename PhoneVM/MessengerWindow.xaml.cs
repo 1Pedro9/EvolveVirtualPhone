@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using PhoneVM.Model;
+using System.Data.Common;
 
 namespace PhoneVM
 {
@@ -23,7 +24,7 @@ namespace PhoneVM
     {
         private WindowProperties windowProperties;
         private DatabaseController databaseController;
-        private Member member;
+        private LoginController member;
         public MessengerWindow()
         {
             InitializeComponent();
@@ -32,7 +33,7 @@ namespace PhoneVM
             databaseController = new DatabaseController();
         }
 
-        public void setMember(Member member)
+        public void setMember(LoginController member)
         {
             this.member = member;
             show_messsages();
@@ -54,16 +55,18 @@ namespace PhoneVM
 
         private void SendMessage(object sender, RoutedEventArgs e)
         {
-            MessageContainer.Children.Add(message_container(new Message(this.member, message_input.Text, DateTime.Now)));
-            Member temp = new Member(2, "Admin", "Admin", "admin@pedrobasson.com", "Admin01", DateTime.Now, 1);
-            Message temp_m = new Message(temp, "Yes, that works for me", DateTime.Now);
-            MessageContainer.Children.Add(message_container(temp_m));
+            Message message = new Message(this.member.getMember(), message_input.Text, DateTime.Now);
+            MessageContainer.Children.Add(message_container(message));
+            // Member temp = new Member(2, "Admin", "Admin", "admin@pedrobasson.com", "Admin01", DateTime.Now, 1);
+            // Message temp_m = new Message(temp, "Yes, that works for me", DateTime.Now);
+            // MessageContainer.Children.Add(message_container(temp_m));
+            databaseController.insert_message(message);
         }
 
         private void show_messsages()
         {
             // MessageContainer
-            List<Message> messages = databaseController.messages();
+            List<Message> messages = this.member.getMessages();
             foreach (Message message in messages)
             {
                 MessageContainer.Children.Add(message_container(message));
@@ -74,7 +77,7 @@ namespace PhoneVM
         private Border message_container(Message message)
         {
             Border border = new Border();
-            if (message.getMember().getMemberID() == this.member.getMemberID())
+            if (message.getMember().getMemberID() == this.member.getMember().getMemberID())
             {
                 border.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#ffd700"));
                 border.HorizontalAlignment = HorizontalAlignment.Right;

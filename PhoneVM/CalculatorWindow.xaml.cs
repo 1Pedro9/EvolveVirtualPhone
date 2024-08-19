@@ -26,7 +26,7 @@ namespace PhoneVM
         private string execute = "";
         private string next_val = "";
 
-        private Member member;
+        private LoginController member;
 
         private WindowProperties windowProperties;
         public CalculatorWindow()
@@ -35,7 +35,7 @@ namespace PhoneVM
             windowProperties = new WindowProperties(this);
         }
 
-        public void setMember(Member member)
+        public void setMember(LoginController member)
         {
             this.member = member;
         }

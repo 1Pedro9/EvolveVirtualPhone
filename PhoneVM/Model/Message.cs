@@ -7,7 +7,7 @@ using PhoneVM.Model;
 
 namespace PhoneVM.Model
 {
-    internal class Message
+    public class Message
     {
         private Member member;
         private string message;

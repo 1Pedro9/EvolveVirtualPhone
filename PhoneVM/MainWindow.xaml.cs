@@ -24,14 +24,14 @@ namespace PhoneVM
     {
         private WindowProperties windowProperties;
 
-        private Member member;
+        private LoginController member;
         public MainWindow()
         {
             InitializeComponent();
             windowProperties = new WindowProperties(this);
         }
 
-        public void setMember(Member value)
+        public void setMember(LoginController value)
         {
             this.member = value;
         }

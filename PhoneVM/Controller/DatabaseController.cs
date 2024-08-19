@@ -71,5 +71,13 @@ namespace PhoneVM.Controller
 
             return array;
         }
+
+        public void insert_message(Message message)
+        {
+            string query = "INSERT INTO messages (member_id, message) VALUES (" + message.getMember().getMemberID() + ", '" + message.getMessage() + "')";
+            MySqlConnection conn = dbConnection.CreateNewConnection();
+            MySqlCommand cmd = new MySqlCommand(query, conn);
+            
+        }
     }
 }

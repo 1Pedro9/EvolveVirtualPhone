@@ -26,18 +26,16 @@ namespace PhoneVM
 
         private WindowProperties windowProperties;
         private DatabaseConnection dbConnection;
-        private Member member;
+        private LoginController lc;
         public LoginWindow()
         {
             InitializeComponent();
             dbConnection = new DatabaseConnection();
             windowProperties = new WindowProperties(this);
+
         }
 
-        public void setMember(Member member)
-        {
-            this.member = member;
-        }
+        
 
         private void login(object sender, RoutedEventArgs e)
         {
@@ -50,9 +48,10 @@ namespace PhoneVM
             MySqlConnection con = dbConnection.CreateNewConnection();
             MySqlCommand cmd = new MySqlCommand(query, con);
             MySqlDataReader reader = cmd.ExecuteReader();
+            Member member = null;
             while (reader.Read())
             {
-                Member member = new Member(
+                member = new Member(
                                 int.Parse(reader["member_id"].ToString()),
                                 reader["firstname"].ToString(),
                                 reader["lastname"].ToString(),
@@ -61,12 +60,14 @@ namespace PhoneVM
                                 DateTime.Parse(reader["date_joined"].ToString()),
                                 1
                             );
-
-                MainWindow mw = new MainWindow();
-                mw.setMember(member);
-                mw.Show();
-                this.Close();
+                
             }
+            DatabaseController db = new DatabaseController();
+            lc = new LoginController(member, db.messages(), null);
+            MainWindow mw = new MainWindow();
+            mw.setMember(lc);
+            mw.Show();
+            this.Close();
         }
 
         private void close(object sender, RoutedEventArgs e)

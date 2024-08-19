@@ -22,7 +22,7 @@ namespace PhoneVM.Controller
             Environment.Exit(0);
         }
 
-        public void close_window(Member member)
+        public void close_window(LoginController member)
         {
             MainWindow main = new MainWindow();
             main.setMember(member);

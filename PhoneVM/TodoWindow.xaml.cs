@@ -23,7 +23,7 @@ namespace PhoneVM
     {
 
         private WindowProperties windowProperties;
-        private Member member;
+        private LoginController member;
         public TodoWindow()
         {
             InitializeComponent();
@@ -35,7 +35,7 @@ namespace PhoneVM
             */
             
         }
-        public void setMember(Member member)
+        public void setMember(LoginController member)
         {
             this.member = member;
         }

@@ -111,6 +111,7 @@
       <DependentUpon>CalculatorWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Controller\DatabaseController.cs" />
+    <Compile Include="Controller\LoginController.cs" />
     <Compile Include="Controller\ModelController.cs" />
     <Compile Include="Controller\WindowProperties.cs" />
     <Compile Include="Core\ObservableObject.cs" />

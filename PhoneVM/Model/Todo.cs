@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PhoneVM.Model
 {
-    internal class Todo
+    public class Todo
     {
         private string todo;
 
